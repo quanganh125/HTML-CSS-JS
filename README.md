@@ -54,6 +54,6 @@ JavaScript is a versatile programming language that enables interactivity and dy
 Here are some resources to aid your learning journey:
 
 - **MDM web docs**: [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML), [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS), [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
-- **YouTube Tutorials**: There are many quality tutorials available on YouTube for HTML, CSS, and JavaScript Such as https://www.youtube.com/watch?v=kUMe1FH4CHE&t=376s&ab_channel=freeCodeCamp.org
+- **YouTube Tutorials**: There are many quality tutorials available on YouTube for HTML, CSS, and JavaScript Such as [All about HTML](https://www.youtube.com/watch?v=kUMe1FH4CHE&t=376s&ab_channel=freeCodeCamp.org)
 
 Happy learning!
