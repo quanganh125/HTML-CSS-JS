@@ -31,6 +31,8 @@ HTML is the markup language that provides the structure of a web page. It's the 
   + Include: header, main, footer, article, section, nav, figure, aside, details, summary, time,...
   + Div and span elements doesn't have any sematic meaning, it's like section without semantic then we should avoid using them as much as possible
 - Forms and input elements
+  + fieldset and legend quite important for semantic purposes
+  + Label must has for attribute exactly id of input element
 
 ## Learning CSS
 
