@@ -27,6 +27,9 @@ HTML is the markup language that provides the structure of a web page. It's the 
 - Tags and elements
 - Headings, paragraphs, lists
 - Links and images
+- Semantic HTML
+  + Include: header, main, footer, article, section, nav, figure, aside, details, summary, time,...
+  + Div and span elements doesn't have any sematic meaning, it's like section without semantic then we should avoid using them as much as possible
 - Forms and input elements
 
 ## Learning CSS
