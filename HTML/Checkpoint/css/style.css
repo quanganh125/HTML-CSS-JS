@@ -1,0 +1,7 @@
+caption,
+th,
+tr,
+td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+}
