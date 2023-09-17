@@ -1,0 +1,47 @@
+/* universal selector. it's not an inheritance */
+* {
+  font-family: monospace;
+}
+
+/* element selector */
+body {
+  font-size: 22px;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* form elements are not typically inherit setting  */
+}
+
+h1,
+h2 {
+  color: blue;
+}
+
+/* CSS is an aconym for cascading style sheet -> it works by cascade order (top down) */
+/* However specificity can overwrite this order: universal < element < class < id < important*/
+p {
+  color: purple;
+}
+
+p {
+  color: red;
+}
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+
+/* class selector */
+.gray {
+  color: gray;
+}
+
+/* id selector. We try to keep them out of CSS */
+#second {
+  font-style: italic;
+}
