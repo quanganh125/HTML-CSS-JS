@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Quang Anh">
+  <meta name="description" content="This is contact page, where you can submit form to contact us">
+  <title>Contact Us - LTS</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="icon" href="img/tacos_logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#menu">Our Menu</a></li>
+        <li><a href="hour.html">Store Hours</a></li>
+      </ul>
+    </nav>
+
+    <figure>
+      <img src="img/taco_and_drink.jpeg" alt="Taco and Drink Photo" title="You should Eat Taco with some alcohol drink"
+        width="300" height="168">
+      <figcaption>Taco and a Drink</figcaption>
+    </figure>
+  </header>
+
+  <hr>
+
+  <main>
+    <section>
+      <h2>Our Contact Form</h2>
+      <form action="https://httpbin.org/" method="get">
+        <fieldset>
+          <legend>Send us a message</legend>
+          <p>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+          </p>
+          <p>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+          </p>
+          <p>
+            <label for="message">Your message: </label><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+          </p>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <h2>Our Location</h2>
+      <address>
+        555 Taco Temtation Land, Suite T <br>
+        Kansas City, MO 555-5555
+        <br><br>
+        Phone: <a href="tel:+5555555555">555-555-5555</a>
+      </address>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>Copyright &copy; The Litte Taco Shop</p>
+  </footer>
+</body>
+
+</html>
