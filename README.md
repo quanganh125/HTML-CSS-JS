@@ -40,6 +40,7 @@ CSS controls the style and layout of HTML elements. It allows you to customize t
 
 - Syntax and selectors
 - Colors, fonts, and backgrounds
+  + You have tool for selecting pallete set and checking contrast at [Coolors.co](https://coolors.co/)
 - Layouts and positioning
 - Responsive design
 - CSS frameworks (e.g., Bootstrap)
