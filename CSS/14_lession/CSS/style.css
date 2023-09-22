@@ -29,7 +29,7 @@ body {
 }
 
 .box {
-  min-width: 100px;
+  /* min-width: 100px; */
   height: 100px;
   background-color: #000;
   color: #fff;
@@ -37,4 +37,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  flex-basis: 100px;
+  flex-grow: 1;
+}
+
+/* flex-grow will separate available space by flex-grow value and give it to each elements */
+/* flex-shrink is opposite side of flex-grow */
+
+.box:nth-child(2) {
+  flex-grow: 2;
 }
