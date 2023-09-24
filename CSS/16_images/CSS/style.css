@@ -28,6 +28,16 @@ img {
 body {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
+  background-color: aliceblue;
+  background-image: linear-gradient(to left, steelblue, #fff);
+}
+
+.container {
+  background-color: rgb(251, 210, 156);
+  background-image: url('../img/scenic-2200x1331.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .example {
@@ -48,15 +58,12 @@ body {
   justify-content: flex-start;
   align-items: center;
   gap: 30px;
-
-  background-color: rgb(251, 210, 156);
-  background-image: url('../img/scenic-2200x1331.png');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .h1 {
   font-size: 300%;
+  color: aliceblue;
+  text-shadow: 2px 2px 5px #000;
 }
 
 .profile-pic-figure {
@@ -70,3 +77,5 @@ body {
   border: 5px double red;
   border-radius: 50%;
 }
+
+/* background-clip provide image inside text effect, but support only few broswer with prefix -webkit */
