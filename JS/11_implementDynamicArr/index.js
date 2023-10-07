@@ -13,4 +13,3 @@ class DynamicArray {
 }
 
 var test = new DynamicArray(3, 4);
-console.log(test.getCapacity);
